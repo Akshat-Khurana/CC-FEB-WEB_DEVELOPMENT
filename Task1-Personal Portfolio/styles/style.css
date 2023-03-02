@@ -1,0 +1,581 @@
+body {
+  background-color: #00091d;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  caret-color: transparent; /* removes the blinking l*/
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  font-family: "Chakra petch";
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+.logo {
+  width: 70px;
+  margin: 20px 0px 0px 65px;
+}
+
+.nav-bar {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-bar:hover {
+  transition-delay: 100ms;
+  color: magenta;
+}
+
+.numbers {
+  font-family: "Chakra petch";
+  font-weight: 400;
+  font-size: 16px;
+  color: magenta;
+}
+
+header ul {
+  display: inline-block;
+  margin-left: 35%;
+  list-style: none;
+}
+
+header li {
+  float: left;
+  padding: 4px 25px;
+}
+
+.resume {
+  border: 1px solid magenta;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.resume:hover {
+  transition-delay: 100ms;
+  background-color: rgba(255, 0, 255, 0.5);
+}
+
+.intro-bracket-1 {
+  color: rgb(56, 129, 248);
+  font-size: 90px;
+  margin: 60px 0px 0px 300px;
+}
+
+.title-subpart-1 {
+  color: white;
+  font-weight: bold;
+  font-size: 110px;
+  margin: 7px 0px 3px 370px;
+}
+
+.intro-bracket-2 {
+  color: rgb(56, 129, 248);
+  font-size: 90px;
+  margin: 0px 0px 40px 300px;
+}
+
+.title-subpart-2 {
+  color: rgb(181, 51, 181);
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0px 0px 200px 300px;
+}
+
+.amatic-text {
+  font-family: "Amatic SC", sans-serif;
+  color: rgb(208, 160, 222);
+}
+
+#about-me {
+  width: 750px;
+  margin: 0px auto;
+  padding: 30px 30px;
+  text-align: justify;
+}
+
+.joke1 {
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 5px black;
+  margin-top: 20px;
+}
+
+details {
+  color: white;
+  font-family: "Amatic sc";
+  font-size: 24px;
+  font-weight: bold;
+}
+
+summary {
+  color: rgb(236, 142, 236);
+  font-family: "Amatic sc";
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  list-style: none;
+  margin: 10px;
+}
+
+#experience {
+  width: 750px;
+  margin: 0px auto;
+  padding: 40px 30px;
+  text-align: justify;
+}
+
+.experience-segments {
+  color: rgb(236, 142, 236);
+  font-size: 25px;
+  font-weight: bolder;
+  list-style-type: disc;
+  margin: 30px 0px 30px 10px;
+}
+
+.listings {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: normal;
+  font-style: italic;
+  font-size: 16px;
+  list-style-type: none;
+  margin: 10px 0px 10px -40px;
+}
+
+#projects {
+  width: 750px;
+  margin: 0px auto 250px;
+  padding: 50px 30px;
+  text-align: justify;
+}
+
+#connect {
+  width: 750px;
+  margin: 0px auto;
+  padding: 50px 30px;
+  text-align: justify;
+}
+
+.numbers1 {
+  font-family: "Chakra petch";
+  font-weight: 400;
+  font-size: 30px;
+  color: magenta;
+}
+
+.headings {
+  color: white;
+  font-size: 35px;
+}
+
+.mail {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 10px 10px 10px 50px;
+}
+
+.mail:hover {
+  color: rgb(181, 51, 181);
+  transition-delay: 100ms;
+}
+
+.github {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 10px 10px 10px 180px;
+}
+
+.github:hover {
+  color: rgb(181, 51, 181);
+  transition-delay: 100ms;
+}
+
+.linkedin {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 10px 10px 10px 290px;
+}
+
+.linkedin:hover {
+  color: rgb(181, 51, 181);
+  transition-delay: 100ms;
+}
+
+.instagram {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 10px 10px 10px 370px;
+}
+
+.instagram:hover {
+  color: rgb(181, 51, 181);
+  transition-delay: 100ms;
+}
+
+hr {
+  border: 1px solid white;
+}
+
+footer {
+  color: white;
+  margin: 200px 0px 40px 0px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.footer-name {
+  display: inline-block;
+}
+
+.ghost {
+  color: rgba(0, 255, 255, 0.8);
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1350px)
+{
+  .logo {
+    width: 65px;
+    margin: 20px 0px 0px 65px;
+  }
+
+  header {
+    font-family: "Chakra petch";
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 15px;
+  }
+
+  header ul {
+    display: inline-block;
+    margin-left: 27%;
+    list-style: none;
+  }
+
+  header li {
+    float: left;
+    padding: 4px 25px;
+  }
+
+  .intro-bracket-1 {
+    color: rgb(56, 129, 248);
+    font-size: 90px;
+    margin: 60px 0px 0px 220px;
+  }
+  
+  .title-subpart-1 {
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    margin: 7px 0px 3px 290px;
+  }
+  
+  .intro-bracket-2 {
+    color: rgb(56, 129, 248);
+    font-size: 90px;
+    margin: 0px 0px 40px 220px;
+  }
+  
+  .title-subpart-2 {
+    color: rgb(181, 51, 181);
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0px 0px 200px 220px;
+  }
+
+  .headings {
+    font-size: 30px;
+  }
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1150px) {
+
+  body {
+    font-size: 17px;
+  }
+
+  .logo {
+    width: 60px;
+    margin: 20px 0px 0px 45px;
+  }
+
+  header {
+    font-family: "Chakra petch";
+    font-weight: 400;
+    font-size: 13px;
+    padding-bottom: 50px;
+  }
+
+  header ul {
+    display: inline-block;
+    margin-left: 18%;
+    list-style: none;
+  }
+
+  header li {
+    float: left;
+    padding: 4px 20px;
+  }
+
+  .intro-bracket-1 {
+    color: rgb(56, 129, 248);
+    font-size: 60px;
+    margin: 60px 0px 0px 200px;
+  }
+  
+  .title-subpart-1 {
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    margin: 7px 0px 3px 270px;
+  }
+  
+  .intro-bracket-2 {
+    color: rgb(56, 129, 248);
+    font-size: 60px;
+    margin: 0px 0px 40px 200px;
+  }
+
+  .title-subpart-2 {
+    color: rgb(181, 51, 181);
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0px 0px 200px 200px;
+  }
+  
+  #about-me {
+    width: 750px;
+    margin: 0px auto;
+    padding: 60px 30px;
+    text-align: justify;
+  }
+  
+  .joke1 {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px black;
+    margin-top: 20px;
+  }
+  
+  details {
+    color: white;
+    font-family: "Amatic sc";
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  summary {
+    color: rgb(236, 142, 236);
+    font-family: "Amatic sc";
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+    margin: 10px;
+  }
+  
+  #experience {
+    width: 750px;
+    margin: 0px auto;
+    padding: 50px 30px;
+    text-align: justify;
+  }
+  
+  .experience-segments {
+    color: rgb(236, 142, 236);
+    font-size: 20px;
+    font-weight: bolder;
+    list-style-type: disc;
+    margin: 30px 0px 30px 10px;
+  }
+  
+  .listings {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: normal;
+    font-style: italic;
+    font-size: 16px;
+    list-style-type: none;
+    margin: 10px 0px 10px -40px;
+  }
+  
+  #projects {
+    width: 750px;
+    margin: 0px auto 250px;
+    padding: 50px 30px;
+    text-align: justify;
+  }
+  
+  #connect {
+    width: 750px;
+    margin: 0px auto;
+    padding: 50px 30px;
+    text-align: justify;
+  }
+  
+  .numbers1 {
+    font-family: "Chakra petch";
+    font-weight: 400;
+    font-size: 25px;
+    color: magenta;
+  }
+  
+  .headings {
+    color: white;
+    font-size: 30px;
+  }
+  
+  footer {
+    color: white;
+    margin: 200px 0px 50px 0px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+
+  body {
+    font-size: 15px;
+  }
+
+  .logo {
+    width: 50px;
+    margin: 20px 0px 0px 25px;
+  }
+
+  header {
+    font-family: "Chakra petch";
+    font-weight: 400;
+    font-size: 13px;
+    padding-bottom: 80px;
+  }
+
+  header ul {
+    display: inline-block;
+    margin-left: 5%;
+    list-style: none;
+  }
+
+  header li {
+    float: left;
+    padding: 4px 10px;
+  }
+
+  .intro-bracket-1 {
+    color: rgb(56, 129, 248);
+    font-size: 50px;
+    margin: 60px 0px 0px 160px;
+  }
+  
+  .title-subpart-1 {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 7px 100px 3px 230px;
+  }
+  
+  .intro-bracket-2 {
+    color: rgb(56, 129, 248);
+    font-size: 50px;
+    margin: 0px 0px 40px 160px;
+  }
+  
+  .title-subpart-2 {
+    color: rgb(181, 51, 181);
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0px 0px 200px 160px;
+  }
+
+  #about-me {
+    width: 550px;
+    margin: 0px auto;
+    padding: 75px 30px;
+    text-align: justify;
+  }
+  
+  .joke1 {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px black;
+    margin-top: 20px;
+  }
+  
+  details {
+    color: white;
+    font-family: "Amatic sc";
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  summary {
+    color: rgb(236, 142, 236);
+    font-family: "Amatic sc";
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+    margin: 10px;
+  }
+  
+  #experience {
+    width: 550px;
+    margin: 0px auto;
+    padding: 40px 30px;
+    text-align: justify;
+  }
+  
+  .experience-segments {
+    color: rgb(236, 142, 236);
+    font-size: 20px;
+    font-weight: bolder;
+    list-style-type: disc;
+    margin: 30px 0px 30px 10px;
+  }
+  
+  .listings {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: normal;
+    font-style: italic;
+    font-size: 15px;
+    list-style-type: none;
+    margin: 10px 0px 10px -40px;
+  }
+  
+  #projects {
+    width: 550px;
+    margin: 0px auto 250px;
+    padding: 50px 30px;
+    text-align: justify;
+  }
+  
+  #connect {
+    width: 550px;
+    margin: 0px auto;
+    padding: 50px 30px;
+    text-align: justify;
+  }
+  
+  .numbers1 {
+    font-family: "Chakra petch";
+    font-weight: 400;
+    font-size: 30px;
+    color: magenta;
+  }
+  
+  .headings {
+    color: white;
+    font-size: 25px;
+  }
+  
+  footer {
+    color: white;
+    margin: 200px 0px 40px 0px;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+
+}
